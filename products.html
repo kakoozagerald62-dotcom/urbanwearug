@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Products - URBAN WEAR UG</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+    <h1>URBAN WEAR UG</h1>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</nav>
+
+<section class="products">
+    <h2>Our Collection</h2>
+
+    <div class="product-grid">
+
+      
+
+        <div class="product">
+            <img src="images/fash7.jpg">
+            <h3>Street Hoodie</h3>
+            <p>UGX 95,000</p>
+            <button onclick="addToCart('Street Hoodie')">Add to Cart</button>
+        </div>
+
+
+        <div class="product">
+            <img src="images/fash1.jpg">
+            <h3>Casual Tee</h3>
+            <p>UGX 95,000</p>
+            <button onclick="addToCart('Casual Tee')">Add to Cart</button>
+        </div>
+         <div class="product">
+            <img src="images/fash5.webp">
+            <h3>smart dress</h3>
+            <p>UGX 85000</p>
+            <button onclick="addToCart('Classic Shirt')">Add to Cart</button>
+        </div>
+         <div class="product">
+            <img src="images/bag2.webp">
+            <h3>lady bags</h3>
+            <p>UGX 45000</p>
+            <button onclick="addToCart('Classic Shirt')">Add to Cart</button>
+        </div>
+  <div class="product">
+            <img src="images/fash4.jpg">
+            <h3>Urban Jacket</h3>
+            <p>UGX 120,000</p>
+            <button onclick="addToCart('Urban Jacket')">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="images/fash3.jpg">
+            <h3>Denim Jeans</h3>
+            <p>UGX 110,000</p>
+            <button onclick="addToCart('Denim Jeans')">Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <img src="images/sh1.jpg">
+            <h3>Urban Sneakers</h3>
+            <p>UGX 150,000</p>
+            <button onclick="addToCart('Urban Sneakers')">Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <img src="images/fash2.jpg">
+            <h3>Classic Shirt</h3>
+            <p>UGX 70,000</p>
+            <button onclick="addToCart('Classic Shirt')">Add to Cart</button>
+        </div>
+ 
+       
+        <div class="product">
+            <img src="images/sh5.jpg">
+            <h3>canvas</h3>
+            <p>UGX 60000</p>
+            <button onclick="addToCart('Classic Shirt')">Add to Cart</button>
+        </div>
+         <div class="product">
+            <img src="images/sh2.jpg">
+            <h3>shoe</h3>
+            <p>UGX 75000</p>
+            <button onclick="addToCart('Classic Shirt')">Add to Cart</button>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2026 URBA WEAR UG</p>
+</footer>
+
+<script>
+let cart = [];
+
+function addToCart(product) {
+    cart.push(product);
+    alert(product + " added to cart!");
+    console.log(cart);
+}
+</script>
+
+</body>
+</html>
